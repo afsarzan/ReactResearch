@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Reliver from "./reliver";
 
 export default function ParentComponent() {
-  const [rv, setrv] = useState<String>();
+  const [rv, setrv] = useState<String>('test String');
 
   useEffect(() => {
       setTimeout(() => {
