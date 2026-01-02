@@ -16,7 +16,7 @@ export default function ShadowComponent() {
     if (shadowRoot) {
       shadowRoot.innerHTML = `
         <style>
-          h1 { color: blue; }
+          h1 { color: yellowgreen; }
           p { font-style: italic; }
         </style>
         <h1>Inside Shadow DOM</h1>
